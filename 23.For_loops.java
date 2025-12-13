@@ -4,6 +4,11 @@ public class rick
 {
 	public static void main(String[] args) throws InterruptedException
 	{
+
+
+
+		  // for loop = execute some code a CERTAIN amount of times
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("How many seconds to count from?: ");

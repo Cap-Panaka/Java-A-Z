@@ -62,14 +62,36 @@ Happy Birthday to you! */
 	return number*number*number;
 	}
 	//27
- }
-
-
-   
-
-
-   
-
-	
+ }	
 	
 }
+4. 
+
+
+	
+ public class rick {
+	 public static void main(String[] args)
+	 {
+		 int age = 21;
+		 
+		 if(ageCheck(age))
+		 {
+			 System.out.println("You may sign up!");
+		
+		 } 
+		 else{
+			 System.out.println("You must be 18+");
+		 }
+	 }
+	   static boolean ageCheck(int age){
+        if(age >= 18){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+	//You may sign up!
+	 
+    
+ }

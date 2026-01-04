@@ -1,0 +1,56 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // super = Refers to the parent class 
+        //               Used in constructors and method overriding
+        //               Calls the parent constructor to initialize attributes
+
+        Person person = new Person("Tom", "Riddle");
+        Student student = new Student("Harry", "Potter", 3.25);
+        Employee employee = new Employee("Rubeus", "Hagrid", 50000);
+        
+    }
+}
+
+public class Person {
+
+    String first;
+    String last;
+
+    Person(String first, String last){
+        this.first = first;
+        this.last = last;
+    }
+
+    void showName(){
+        System.out.println(this.first + " " + this.last);
+    }
+}
+
+public class Student extends Person{
+
+    double gpa;
+
+    Student(String first, String last, double gpa){
+        super(first, last);
+        this.gpa = gpa;
+    }
+
+    void showGPA(){
+        System.out.println(this.first + "'s gpa is: " + this.gpa);
+    }
+}
+
+public class Employee extends Person{
+
+    int salary;
+
+    Employee(String first, String last, int salary){
+        super(first, last);
+        this.salary = salary;
+    }
+
+    void showSalary(){
+        System.out.println(this.first + "'s salary is $" + this.salary);
+    }
+}

@@ -11,7 +11,7 @@ Each topic is numbered sequentially. You can easily navigate to any topic by cli
 
 | # | Topic / Project | Link |
 |---|-----------------|------|
-| **01** | Intro Of Java | [View Code](./01.%20Intro%20Of%20Java.java) |
+| **01** | Intro Of Java | [View Code](https://github.com/Cap-Panaka/Java-A-Z/blob/main/01.Intro%20Of%20Java.java) |
 | **02** | Variable | [View Code](./02.%20Variable.java) |
 | **03** | User Input | [View Code](./03.%20User_input.java) |
 | **04** | Mad Libs Game | [View Code](./04.%20MAD_LIBS_GAME.java) |
